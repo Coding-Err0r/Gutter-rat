@@ -1,0 +1,12 @@
+.backgroundImage {
+  background: url("../assets/bg.jpg") center no-repeat fixed;
+  position: relative;
+}
+.backgroundImage::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 10, 12, 35%);
+  z-index: 0;
+}
